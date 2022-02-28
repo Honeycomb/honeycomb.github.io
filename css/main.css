@@ -87,6 +87,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  html {
+    font-family: 'Noto Sans';
+  }
+
+  nav a {
+    color: #D3D3D3;
+    font-size: 32px;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+
+  nav a:last-of-type {
+    margin-right: 0;
+  }
+
+  nav a:hover {
+    font-weight: bold;
+  }
+
+  P {
+    color: #D3D3D3;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  p:last-of-type {
+    margin: 0;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
