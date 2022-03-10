@@ -87,6 +87,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  footer a {
+    color: #D3D3D3;
+    margin-right: 8px;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer a:last-of-type {
+    margin: 0;
+  }
+
   html {
     font-family: 'Noto Sans';
   }
@@ -98,12 +112,12 @@ textarea {
     text-decoration: none;
   }
 
-  nav a:last-of-type {
-    margin-right: 0;
-  }
-
   nav a:hover {
     font-weight: bold;
+  }
+
+  nav a:last-of-type {
+    margin-right: 0;
   }
 
   P {
